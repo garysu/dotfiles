@@ -1,8 +1,8 @@
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+  name = Gary Sumner
+  email = garysu@seventh-symbol.net
 [core]
-  editor = vi
+  editor = code
   excludesfile = ~/.gitignore
   autocrlf = input
 [color]
@@ -13,7 +13,7 @@
 [init]
   defaultBranch = master
 [web]
-  browser = google-chrome
+  browser = microsoft-edge
 [credential]
   helper = osxkeychain
 [push]
