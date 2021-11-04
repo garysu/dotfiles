@@ -1,9 +1,3 @@
-#
-# .zshrc
-#
-# @author Jeff Geerling
-#
-
 # Colors.
 unset LSCOLORS
 export CLICOLOR=1
@@ -105,23 +99,3 @@ knownrm() {
    sed -i '' "$1d" ~/.ssh/known_hosts
  fi
 }
-
-# Allow Composer to use almost as much RAM as Chrome.
-export COMPOSER_MEMORY_LIMIT=-1
-
-# Ask for confirmation when 'prod' is in a command string.
-#prod_command_trap () {
-#  if [[ $BASH_COMMAND == *prod* ]]
-#  then
-#    read -p "Are you sure you want to run this command on prod [Y/n]? " -n 1 -r
-#    if [[ $REPLY =~ ^[Yy]$ ]]
-#    then
-#      echo -e "\nRunning command \"$BASH_COMMAND\" \n"
-#    else
-#      echo -e "\nCommand was not run.\n"
-#      return 1
-#    fi
-#  fi
-#}
-#shopt -s extdebug
-#trap prod_command_trap DEBUG
