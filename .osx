@@ -36,6 +36,9 @@ fi
 # General UI/UX                                                               #
 ###############################################################################
 
+# Turn off the natural trackpad scroll direction
+defaults write com.apple.AppleMultitouchTrackpad TrackpadScroll -bool false
+
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
