@@ -9,3 +9,5 @@ alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %
 
 # Kubernetes aliases
 alias k=kubectl
+alias kgn=kubectl get nodes
+alias kgp=kubectl get pods

@@ -1,0 +1,46 @@
+{
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null
+      }
+    },
+    "selectedTabId": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+    "tabs": [
+      {
+        "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+        "type": "CLI",
+        "cwd": "/Users/garysu",
+        "title": "/garysu",
+        "graphPanelVisibilityMode": "AUTO",
+        "sidePanel": {
+          "height": 375,
+          "width": 706
+        }
+      }
+    ]
+  },
+  "externalEditor": "Visual Studio Code",
+  "profileIcon": "gravatar",
+  "profileName": "Personal",
+  "userEmail": "garysu@seventh-symbol.net",
+  "userName": "Gary Sumner",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "organizationId": "5afd7983c4dff1000eb2aeed",
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "cli": {
+    "fontFamily": "MesloLGS NF",
+    "sidePanel": {
+      "height": 375
+    }
+  },
+  "zoom": 1.2,
+  "init": {
+    "defaultBranch": "master"
+  }
+}

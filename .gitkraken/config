@@ -1,0 +1,66 @@
+{
+  "lastUpgradeScriptRun": "v8.0.0",
+  "appId": "e16b03624642ef0f5bcfcacacfb796e0a3879d04",
+  "sslWhitelist": [],
+  "lastVersion": "8.1.0",
+  "lastReleaseNotesDisplayed": "8.1.0",
+  "registration": {
+    "email": "garysu@seventh-symbol.net",
+    "name": "Gary Sumner",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2021-11-09T02:38:20.060Z",
+    "EULA": {
+      "version": "7.5.0",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "69e220a8-2b7c-45af-a869-f4e078db9d1a",
+  "licensedFeatures": [
+    "pro"
+  ],
+  "userFeatures": [
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "glo"
+    },
+    {
+      "name": "timelines"
+    },
+    {
+      "name": "cli"
+    }
+  ],
+  "hasSeenNewUserOnboarding": true,
+  "windowSettings": {
+    "x": 209,
+    "y": 38,
+    "width": 1251,
+    "height": 800,
+    "fullScreen": false,
+    "maximized": true
+  },
+  "repoDeepLinkMap": {
+    "35604dfad4ebd126201aac4449b5483759c8ba17": {
+      "paths": [
+        "/Users/garysu/Development/GitHub/dotfiles/"
+      ],
+      "pullUrls": {
+        "https://github.com/garysu/dotfiles.git": {
+          "paths": [
+            "/Users/garysu/Development/GitHub/dotfiles/"
+          ],
+          "name": "dotfiles",
+          "hostName": "github.com",
+          "owner": "garysu",
+          "hostingServiceType": "github"
+        }
+      }
+    }
+  },
+  "commits": {
+    "maxCommitsInGraph": 2000
+  }
+}

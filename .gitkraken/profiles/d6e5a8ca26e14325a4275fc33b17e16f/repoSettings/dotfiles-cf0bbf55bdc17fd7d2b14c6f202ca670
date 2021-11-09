@@ -1,0 +1,160 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "aa2024c9-0ca3-4815-a172-c216293a3967",
+        "filter": "author:garysu",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "garysu"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8208a0b3-a150-436e-b898-6454c7c67382",
+        "filter": "assignee:garysu",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "garysu"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "58bf0950-4242-4cb3-a6ac-f0d95d481903",
+        "filter": "review-requested:garysu",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "garysu"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f7939c4-930c-40f2-94f7-96d21001d624",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteParents": {
+    "github": {
+      "garysu": {
+        "dotfiles": {
+          "hostingServiceType": "github",
+          "owner": "geerlingguy",
+          "name": "dotfiles"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "0231d38a27380d7dbd0d05d8eddd004369153e95",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/intel": {
+        "name": "refs/heads/intel",
+        "oid": "40e4290910209de4e8d9a1c65575846486d2db80",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "0231d38a27380d7dbd0d05d8eddd004369153e95",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.0": {
+        "name": "refs/tags/1.0.0",
+        "oid": "46a33844079b28fba3ef2b10d3695a4862005bc1",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.1": {
+        "name": "refs/tags/1.0.1",
+        "oid": "33fbd5f71674d55ed83f9404138b3a81126ccce0",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.2": {
+        "name": "refs/tags/1.0.2",
+        "oid": "08d9fca5124a70cf93f58b04acf11a88f674a042",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/1.0.3": {
+        "name": "refs/tags/1.0.3",
+        "oid": "4a7720727404a7d4d65e6103cbc3504e416366c8",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/1.1.0": {
+        "name": "refs/tags/1.1.0",
+        "oid": "bf066e99c786d89571f779591969c93445e6f463",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}
