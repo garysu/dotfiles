@@ -1,0 +1,127 @@
+{
+  "pullRequests": {
+    "filters": [
+      {
+        "id": "76a4f1d5-8c04-46ed-8df8-d5434d89994a",
+        "filter": "author:garysu",
+        "name": "My Pull Requests",
+        "author": [
+          {
+            "not": false,
+            "values": [
+              "garysu"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "25c2faa8-084f-4951-aaa4-3a471ecb514d",
+        "filter": "assignee:garysu",
+        "name": "Assigned To Me",
+        "assignee": [
+          {
+            "not": false,
+            "values": [
+              "garysu"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "60913c4d-9863-4048-8f30-d56b215b34f0",
+        "filter": "review-requested:garysu",
+        "name": "Awaiting My Review",
+        "review-requested": [
+          {
+            "not": false,
+            "values": [
+              "garysu"
+            ]
+          }
+        ],
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cc640df4-a915-492b-b68b-03f4febfcdf5",
+        "filter": "",
+        "name": "All Pull Requests",
+        "in": [
+          {
+            "not": false,
+            "values": [
+              "title",
+              "body"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remoteParents": {
+    "github": {
+      "garysu": {
+        "home-network": {
+          "hostingServiceType": "github",
+          "owner": "garysu",
+          "name": "home-network"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "64b398cb97a792a2dc2fb6ba5512171b6b6c20bb",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/main"
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "64b398cb97a792a2dc2fb6ba5512171b6b6c20bb",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  },
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "upstreamFrecencyMetadata": {
+    "origin": {
+      "id": "remote-origin",
+      "timestamps": [
+        1637464303470
+      ],
+      "total": 1
+    }
+  }
+}

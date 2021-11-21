@@ -1,6 +1,7 @@
 [user]
   name = Gary Sumner
-  email = garysu@seventh-symbol.net
+  email = 1896003+garysu@users.noreply.github.com
+	signingKey = ""
 [core]
   editor = code
   excludesfile = ~/.gitignore

@@ -2,8 +2,8 @@
   "lastUpgradeScriptRun": "v8.0.0",
   "appId": "e16b03624642ef0f5bcfcacacfb796e0a3879d04",
   "sslWhitelist": [],
-  "lastVersion": "8.1.0",
-  "lastReleaseNotesDisplayed": "8.1.0",
+  "lastVersion": "8.1.1",
+  "lastReleaseNotesDisplayed": "8.1.1",
   "registration": {
     "email": "garysu@seventh-symbol.net",
     "name": "Gary Sumner",
@@ -20,6 +20,9 @@
     "pro"
   ],
   "userFeatures": [
+    {
+      "name": "activityStatus"
+    },
     {
       "name": "gitkraken"
     },
@@ -58,9 +61,45 @@
           "hostingServiceType": "github"
         }
       }
+    },
+    "eee815bea3699469bb1912f63a0db8fd25211834": {
+      "paths": [
+        "/Users/garysu/Development/GitHub/home-network/"
+      ],
+      "pullUrls": {
+        "https://github.com/garysu/home-network.git": {
+          "paths": [
+            "/Users/garysu/Development/GitHub/home-network/"
+          ],
+          "name": "home-network",
+          "hostName": "github.com",
+          "owner": "garysu",
+          "hostingServiceType": "github"
+        }
+      }
     }
   },
   "commits": {
     "maxCommitsInGraph": 2000
+  },
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/garysu/Development/GitHub/home-network": {
+          "id": "openRepo-/Users/garysu/Development/GitHub/home-network",
+          "timestamps": [
+            1637509113834
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/garysu/Development/GitHub/dotfiles": {
+          "id": "openRepo-/Users/garysu/Development/GitHub/dotfiles",
+          "timestamps": [
+            1637513383109
+          ],
+          "total": 1
+        }
+      }
+    }
   }
 }

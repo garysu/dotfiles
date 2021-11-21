@@ -3,3 +3,5 @@
 Thumbs.db
 .bundle
 *cache*
+*.kube/cache/*
+*.gitkraken/logs/*

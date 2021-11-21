@@ -5,29 +5,37 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "9974f240-66d2-4433-a1ae-ac733f4644d3",
+    "selectedTabId": "c4e7a014-99ed-493a-8c9a-8d402f948a15",
     "tabs": [
       {
+        "id": "520d2071-0101-4a30-9b7d-84d817f12e90",
+        "type": "PLUGIN",
+        "pluginId": "glo",
+        "mountKey": "GloAppFullView"
+      },
+      {
         "id": "9974f240-66d2-4433-a1ae-ac733f4644d3",
-        "type": "CLI",
-        "cwd": "/Users/garysu",
-        "title": "/garysu",
-        "graphPanelVisibilityMode": "AUTO",
-        "sidePanel": {
-          "height": 375,
-          "width": 706
-        }
+        "type": "REPO",
+        "repoName": "home-network",
+        "repoPath": "/Users/garysu/Development/GitHub/home-network/"
+      },
+      {
+        "id": "c4e7a014-99ed-493a-8c9a-8d402f948a15",
+        "type": "REPO",
+        "repoName": "dotfiles",
+        "repoPath": "/Users/garysu/Development/GitHub/dotfiles/"
       }
     ]
   },
   "externalEditor": "Visual Studio Code",
-  "profileIcon": "gravatar",
+  "profileIcon": "Keif.png",
   "profileName": "Personal",
-  "userEmail": "garysu@seventh-symbol.net",
+  "userEmail": "1896003+garysu@users.noreply.github.com",
   "userName": "Gary Sumner",
   "gpg": {
     "commitGpgSign": false,
-    "tagForceSignAnnotated": false
+    "tagForceSignAnnotated": false,
+    "userSigningKey": ""
   },
   "organizationId": "5afd7983c4dff1000eb2aeed",
   "editor": {
@@ -36,10 +44,10 @@
   "cli": {
     "fontFamily": "MesloLGS NF",
     "sidePanel": {
-      "height": 375
+      "height": 672
     }
   },
-  "zoom": 1.2,
+  "zoom": 1.1,
   "init": {
     "defaultBranch": "master"
   }
