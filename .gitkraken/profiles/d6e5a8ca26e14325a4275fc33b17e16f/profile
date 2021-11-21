@@ -5,7 +5,7 @@
         "selectedProject": null
       }
     },
-    "selectedTabId": "c4e7a014-99ed-493a-8c9a-8d402f948a15",
+    "selectedTabId": "9974f240-66d2-4433-a1ae-ac733f4644d3",
     "tabs": [
       {
         "id": "520d2071-0101-4a30-9b7d-84d817f12e90",
@@ -18,12 +18,6 @@
         "type": "REPO",
         "repoName": "home-network",
         "repoPath": "/Users/garysu/Development/GitHub/home-network/"
-      },
-      {
-        "id": "c4e7a014-99ed-493a-8c9a-8d402f948a15",
-        "type": "REPO",
-        "repoName": "dotfiles",
-        "repoPath": "/Users/garysu/Development/GitHub/dotfiles/"
       }
     ]
   },

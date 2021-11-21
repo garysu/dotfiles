@@ -5,3 +5,4 @@ Thumbs.db
 *cache*
 *.kube/cache/*
 *.gitkraken/logs/*
+.gitkraken/logs/app.txt
